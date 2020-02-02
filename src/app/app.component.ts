@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularCliProject';
+
+  onSubmit(){
+    var s = 2;
+    console.log(s);
+    
+  }
 }

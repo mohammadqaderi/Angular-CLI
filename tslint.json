@@ -49,10 +49,16 @@
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,
     "no-use-before-declare": true,
-    "no-var-requires": false,
+    "no-var-requires": true,
     "object-literal-key-quotes": [
-      true,
+      false,
       "as-needed"
+    ],
+    "one-line": [
+      false,
+      "check-whitespace",
+      "check-open-brace",
+      "no-trailing-whitespace"
     ],
     "object-literal-sort-keys": false,
     "ordered-imports": false,
